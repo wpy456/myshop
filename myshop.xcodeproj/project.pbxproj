@@ -13,6 +13,7 @@
 		A01259E122913775003239EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01259DF22913775003239EB /* Main.storyboard */; };
 		A01259E322913775003239EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01259E222913775003239EB /* Assets.xcassets */; };
 		A01259E622913775003239EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01259E422913775003239EB /* LaunchScreen.storyboard */; };
+		A01259EF22913B87003239EB /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01259ED22913B87003239EB /* ThreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A01259E222913775003239EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01259E522913775003239EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01259E722913775003239EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01259ED22913B87003239EB /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A01259D922913775003239EB /* AppDelegate.swift */,
 				A01259DB22913775003239EB /* FirstViewController.swift */,
 				A01259DD22913775003239EB /* SecondViewController.swift */,
+				A01259ED22913B87003239EB /* ThreeViewController.swift */,
 				A01259DF22913775003239EB /* Main.storyboard */,
 				A01259E222913775003239EB /* Assets.xcassets */,
 				A01259E422913775003239EB /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				A01259DE22913775003239EB /* SecondViewController.swift in Sources */,
 				A01259DA22913775003239EB /* AppDelegate.swift in Sources */,
 				A01259DC22913775003239EB /* FirstViewController.swift in Sources */,
+				A01259EF22913B87003239EB /* ThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,6 +47,22 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="ZYm-a3-i8S">
+            <objects>
+                <viewController id="LsF-d7-TIq" customClass="ThreeViewController" customModule="myshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NtO-jb-v85">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xLA-6G-qEu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="hSE-S0-Ca9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55u-S6-9WH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1452" y="-174"/>
+        </scene>
         <!--我的-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -96,6 +112,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="LsF-d7-TIq" kind="relationship" relationship="viewControllers" id="hsu-lj-H8a"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
